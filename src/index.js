@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import FetchGetPost from './FetchGetPost';
+import FetchProxy from './FetchProxy';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-   <FetchGetPost/>
+    <FetchProxy/>
   </div>
 );
 
