@@ -27,8 +27,7 @@ postHandle =()=>{
     //querystring is not working, URLSearchParams is used to convert an object to querystring
     const queryString = new URLSearchParams(this.state).toString();
     //console.log(queryString);
-
-      //Object.keys(params).map(key => key + '=' + params[key]).join('&');
+    //Object.keys(params).map(key => key + '=' + params[key]).join('&');
     
     fetch("http://iwenwiki.com/api/blueberrypai/login.php",{
         method:'POST',
