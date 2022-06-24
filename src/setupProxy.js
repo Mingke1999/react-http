@@ -5,5 +5,6 @@ module.exports = function (app) {
       target: 'http://iwenwiki.com',
       changeOrigin: true,
     })
+    
   );
 };
